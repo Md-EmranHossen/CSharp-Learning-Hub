@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35728.132 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCaseAdvanced", "SwitchCaseAdvanced\SwitchCaseAdvanced.csproj", "{B6102E70-7F0A-49A9-B742-3D38DB88FEA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression", "Expression\Expression.csproj", "{B36B77B5-710D-4C57-84D6-D41A3F8C8E66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B6102E70-7F0A-49A9-B742-3D38DB88FEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6102E70-7F0A-49A9-B742-3D38DB88FEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6102E70-7F0A-49A9-B742-3D38DB88FEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36B77B5-710D-4C57-84D6-D41A3F8C8E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36B77B5-710D-4C57-84D6-D41A3F8C8E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36B77B5-710D-4C57-84D6-D41A3F8C8E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36B77B5-710D-4C57-84D6-D41A3F8C8E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIndexing", "ReverseIndexing\ReverseIndexing.csproj", "{47ECA567-C29C-4806-9E2A-68CDB9F60826}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading", "Threading\Threading.csproj", "{F8616C8C-FAB4-4136-87EF-7D663CF5B41C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{0998FB33-D16B-4D76-AD2B-93C6171A13FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{47ECA567-C29C-4806-9E2A-68CDB9F60826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47ECA567-C29C-4806-9E2A-68CDB9F60826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47ECA567-C29C-4806-9E2A-68CDB9F60826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8616C8C-FAB4-4136-87EF-7D663CF5B41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8616C8C-FAB4-4136-87EF-7D663CF5B41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8616C8C-FAB4-4136-87EF-7D663CF5B41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8616C8C-FAB4-4136-87EF-7D663CF5B41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0998FB33-D16B-4D76-AD2B-93C6171A13FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0998FB33-D16B-4D76-AD2B-93C6171A13FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0998FB33-D16B-4D76-AD2B-93C6171A13FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0998FB33-D16B-4D76-AD2B-93C6171A13FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

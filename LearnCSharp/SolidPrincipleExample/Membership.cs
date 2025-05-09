@@ -10,11 +10,13 @@ namespace SolidPrincipleExample
     {
         public void CreateAccount(string email, string password)
         {
-            // Word with database (check duplicate email, add data in table)
-            // Create url with encrypted code
-            // send email with the link
+            new DBUtility().Read("");
+            string pass = new Encryption().Encrypt(password);
+
+
+            new EmailSender().SendRegistrationEmail(email);
+
 
         }
     }
 }
-  

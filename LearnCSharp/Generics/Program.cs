@@ -12,3 +12,5 @@ coordiate2.Y = 9.5;
 
 Coordiate<Person, int> coordiate3 = new Coordiate<Person, int>();
 coordiate3.Test(new Person(), 3);
+
+

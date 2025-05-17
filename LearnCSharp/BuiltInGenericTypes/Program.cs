@@ -29,9 +29,19 @@ persons.Add("Emran", 24);
 persons.Add("Rakib", 25);
 
 persons["Emran"] = 25;
+persons.Remove("Emran");
+
+Dictionary<string, int>.KeyCollection keys = persons.Keys;
+foreach(var itemm in keys)
+{
+    Console.WriteLine(itemm);
+}
 
 Dictionary<string, Dictionary<int, double>> items = new Dictionary<string, Dictionary<int, double>>();
 List<Dictionary<string, string>> things = new List<Dictionary<string, string>>();
+
+
+
 
 #endregion
 
@@ -120,7 +130,6 @@ queue2.Enqueue(3);
 queue2.Enqueue(5);
 var item4 = queue2.Dequeue();
 #endregion
-
 
 // Default Key word
 Console.WriteLine(default(int));

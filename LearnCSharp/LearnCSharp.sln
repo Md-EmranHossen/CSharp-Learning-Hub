@@ -79,6 +79,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltInGenericTypes", "BuiltInGenericTypes\BuiltInGenericTypes.csproj", "{4075FC2D-0A26-4FE0-A7C1-0F2C8F2D13AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodExample", "ExtensionMethodExample\ExtensionMethodExample.csproj", "{B537316A-AE01-4C4E-9B06-EB12A8D25932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryForExtensionMethod", "ClassLibraryForExtensionMethod\ClassLibraryForExtensionMethod.csproj", "{2F53B0A7-9C48-45B8-A871-EECCF6D14772}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,8 +241,19 @@ Global
 		{4075FC2D-0A26-4FE0-A7C1-0F2C8F2D13AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4075FC2D-0A26-4FE0-A7C1-0F2C8F2D13AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4075FC2D-0A26-4FE0-A7C1-0F2C8F2D13AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B537316A-AE01-4C4E-9B06-EB12A8D25932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B537316A-AE01-4C4E-9B06-EB12A8D25932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B537316A-AE01-4C4E-9B06-EB12A8D25932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B537316A-AE01-4C4E-9B06-EB12A8D25932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F53B0A7-9C48-45B8-A871-EECCF6D14772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F53B0A7-9C48-45B8-A871-EECCF6D14772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F53B0A7-9C48-45B8-A871-EECCF6D14772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F53B0A7-9C48-45B8-A871-EECCF6D14772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {242BCA30-82E0-4807-9BF8-B6A082D64082}
 	EndGlobalSection
 EndGlobal

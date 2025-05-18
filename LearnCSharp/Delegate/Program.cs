@@ -1,5 +1,5 @@
 ﻿using static Delegate.MathExample;
-Calculate sum = Sum;
+//Calculate sum = Sum;
 
 
 /*int Sum(int a, int b)

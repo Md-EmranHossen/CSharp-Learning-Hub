@@ -1,5 +1,6 @@
 ﻿
-using Linq;
+using LinqLastOrDefault;
+
 
 List<Employee> employees = new List<Employee>()
 {
@@ -27,11 +28,12 @@ List<Employee> employees = new List<Employee>()
         EmpId = 105, Name = "Anik", Job = "Developer", City = "Barishal"
     }
 };
+// Always USE LastOrDefault
+Employee result = employees.LastOrDefault(emp => emp.Job == "Developer");
 
 
-IEnumerable<Employee> result = employees.Where(emp => emp.Job == "Developer");
-
-foreach (var it in result)
+if(result != null)
 {
-    Console.WriteLine(it.Name);
+    Console.WriteLine(result.Name + "," + result.City);
 }
+

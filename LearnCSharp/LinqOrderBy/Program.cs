@@ -1,5 +1,4 @@
-﻿
-using Linq;
+﻿using LinqOrderBy;
 
 List<Employee> employees = new List<Employee>()
 {
@@ -28,10 +27,18 @@ List<Employee> employees = new List<Employee>()
     }
 };
 
+IEnumerable<Employee> result = employees.OrderBy(emp => emp.Job).ThenBy(emp => emp.City);
+IEnumerable<Employee> result2 = employees.OrderByDescending(emp => emp.Name).ThenBy(emp => emp.EmpId);
 
-IEnumerable<Employee> result = employees.Where(emp => emp.Job == "Developer");
 
 foreach (var it in result)
+{
+    Console.WriteLine(it.Name);
+}
+
+Console.WriteLine();
+
+foreach (var it in result2)
 {
     Console.WriteLine(it.Name);
 }

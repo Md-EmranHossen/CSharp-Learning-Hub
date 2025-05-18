@@ -1,5 +1,4 @@
-﻿
-using Linq;
+﻿using LinqFirstAndFirstOrDefault;
 
 List<Employee> employees = new List<Employee>()
 {
@@ -27,11 +26,7 @@ List<Employee> employees = new List<Employee>()
         EmpId = 105, Name = "Anik", Job = "Developer", City = "Barishal"
     }
 };
+// Always USE FirstOrDefault
+Employee? result = employees.FirstOrDefault(emp => emp.Job=="Clark");
 
-
-IEnumerable<Employee> result = employees.Where(emp => emp.Job == "Developer");
-
-foreach (var it in result)
-{
-    Console.WriteLine(it.Name);
-}
+Console.WriteLine(result.Name);

@@ -1,4 +1,5 @@
-﻿using LinqElementAtOrElementOrDefault;
+﻿using LinqSingleAndSingleOrDefault;
+
 
 List<Employee> employees = new List<Employee>()
 {
@@ -24,16 +25,12 @@ List<Employee> employees = new List<Employee>()
     new Employee
     {
         EmpId = 105, Name = "Anik", Job = "Developer", City = "Barishal"
-    },
-    new Employee
-    {
-        EmpId = 106, Name = "Shakib", Job = "Developer", City = "Rajshahi"
     }
 };
-// It is similar like indexing
-Employee? result = employees.Where(emp => emp.Job == "Developer").ElementAtOrDefault(0);
+
+Employee result =  employees.SingleOrDefault(emp => emp.Job == "Developer");
 
 if(result != null)
 {
-    Console.WriteLine(result.Name);
+   Console.WriteLine(result.Name);
 }

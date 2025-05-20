@@ -1,4 +1,5 @@
-﻿using LinqElementAtOrElementOrDefault;
+﻿
+using LinqSelectStatement;
 
 List<Employee> employees = new List<Employee>()
 {
@@ -24,16 +25,16 @@ List<Employee> employees = new List<Employee>()
     new Employee
     {
         EmpId = 105, Name = "Anik", Job = "Developer", City = "Barishal"
-    },
-    new Employee
-    {
-        EmpId = 106, Name = "Shakib", Job = "Developer", City = "Rajshahi"
     }
 };
-// It is similar like indexing
-Employee? result = employees.Where(emp => emp.Job == "Developer").ElementAtOrDefault(0);
 
-if(result != null)
+
+IEnumerable<Person> result = employees.Select(emp => new Person()
 {
-    Console.WriteLine(result.Name);
+    PersonName = emp.Name
+});
+
+foreach (var item in result)
+{
+    Console.WriteLine(item.PersonName);
 }
